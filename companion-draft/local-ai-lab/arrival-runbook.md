@@ -1,6 +1,6 @@
 # Machine-arrival runbook: from a plan to observed local AI
 
-Prepared October18,2026. Status: proposed procedure, reviewed against current documentation; not executed on the planned Mac Studio. John's supplied October18 screenshot shows an M5 Ultra with256GB unified memory,1TB storage,36-core CPU,80-core GPU and32-core Neural Engine. This confirms the displayed configuration, not delivery or price; the little-over$10,000 estimate remains author-reported. See [configuration and sizing decision](../../research/12-mac-studio-sizing-decision.md). The hardware plan found in Merlin concerned an earlier96GB target. Do not copy its tuning commands or price/performance forecasts into the new machine setup.
+Before starting, verify the actual machine, memory, storage, operating system and selected runtime against its current official requirements. This is a proposed local-model trial procedure, not a measured performance result. Do not assume a machine configuration, purchase price or delivered device from a planning example.
 
 The first useful outcome is small: use a locally loaded model to classify fictional maintenance notes, preserve unknown dates and negation, and save evidence that another person can inspect. Passing this task does not establish a general-purpose autonomous assistant.
 

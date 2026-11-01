@@ -14,4 +14,4 @@ Save attempts with the [record template](attempt-template.md). Record actual out
 
 The [capability guide](capability-guide.md) maps these jobs to optional Claude features. You do not need connections, plugins, office add-ins or Code to begin. Reviewer material is stored separately in `reviewer-only/`; do not give it to the assistant or learner during an assessment.
 
-Status: fixture arithmetic checked locally; three representative related Claude conversations are captured in the [observed attempts](observed-attempts.md). These do not execute every exercise. Human learner attempts remain unrun. See [trial status](../../planning/reviews/reader-growth-2026-10-30/VALIDATION.md).
+Status: fixture arithmetic checked locally; three representative related Claude conversations are captured in the [observed attempts](observed-attempts.md). These do not execute every exercise. Human learner attempts remain unrun. See trial status (private development record; not included in this download).
