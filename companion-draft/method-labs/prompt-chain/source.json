@@ -1,0 +1,9 @@
+{
+  "task_id": "chapter44-venue",
+  "source_version": "1",
+  "B1": {"budget": 450, "materials_reserve": 100},
+  "B2": {"occupancy": 10, "includes_volunteers": true},
+  "Q1": {"venue": "Elm Room", "rental": 280, "required_cleaning": 90, "capacity": 12},
+  "Q2": {"venue": "Pine Room", "all_inclusive": 320, "capacity": 10},
+  "U1": {"availability": "unconfirmed"}
+}

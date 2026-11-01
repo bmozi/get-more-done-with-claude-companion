@@ -1,0 +1,23 @@
+Fictional practice data. No real people or appointments.
+
+Goal: fit three household tasks into a week without changing fixed commitments.
+Use only the free windows below. Tasks cannot be split across windows.
+
+Free windows:
+Monday 18:30–19:00
+Tuesday 18:00–19:00
+Wednesday 18:30–18:50
+Thursday 18:00–18:45
+Friday: no free window
+
+Tasks:
+A. Sort the household paperwork: 30 minutes, before Thursday.
+B. Prepare the community-event supply box: 45 minutes, after task A.
+C. Return a library book: 20 minutes including travel; must finish by 18:45 on Thursday.
+
+Preferences:
+Keep Wednesday free if the tasks fit elsewhere.
+Keep at least one Monday-through-Thursday evening completely free.
+
+Output wanted:
+A short schedule with start and finish times, an explanation of any unmet constraint, and a separate list of assumptions. Do not invent additional free time.

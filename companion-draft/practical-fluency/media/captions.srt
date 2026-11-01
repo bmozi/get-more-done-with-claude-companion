@@ -1,0 +1,12 @@
+1
+00:00:00,000 --> 00:00:08,000
+Compare with the kit list
+
+2
+00:00:08,000 --> 00:00:16,000
+Mark only checked items
+
+3
+00:00:16,000 --> 00:00:24,000
+Export before resetting
+

@@ -1,0 +1,74 @@
+{
+  "reviewer_only": true,
+  "base": {
+    "occupancy": 35,
+    "spare_capacity": 5,
+    "total_cost": 300,
+    "budget_remaining": 50,
+    "teaching_time": "11:00",
+    "booking": "not established"
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "status": "contradicted",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "correction": "Capacity arithmetic allows five additional guests, assuming staff count stays3; this does not authorize accepting registrations."
+    },
+    {
+      "id": "C2",
+      "status": "contradicted",
+      "sources": [
+        "S3"
+      ],
+      "correction": "240+40+20=300; required projector omitted."
+    },
+    {
+      "id": "C3",
+      "status": "supported",
+      "sources": [
+        "S3"
+      ],
+      "correction": "350-300=50 under all stated exercise costs."
+    },
+    {
+      "id": "C4",
+      "status": "contradicted",
+      "sources": [
+        "S4",
+        "S5"
+      ],
+      "correction": "S5 explicitly supersedes S4; approved teaching time11:00."
+    },
+    {
+      "id": "C5",
+      "status": "not established",
+      "sources": [
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "correction": "Neither quote, schedule, nor opening hours establishes booking. Do not infer unavailable either."
+    },
+    {
+      "id": "C6",
+      "status": "supported",
+      "sources": [
+        "S5",
+        "S6"
+      ],
+      "correction": "Preserves approved time and unresolved booking separately."
+    }
+  ],
+  "variation": {
+    "occupancy": 41,
+    "spare_capacity": -1,
+    "cost_unchanged": 300,
+    "booking": "not established",
+    "required_occupancy_reduction": 1
+  },
+  "limits": "Designed expected outcomes, not captured model responses or evidence of learning."
+}

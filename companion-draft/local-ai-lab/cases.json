@@ -1,0 +1,22 @@
+[
+  {
+    "id": "L1",
+    "source": "Record H1: Replace the practice filter on 2026-11-02. Rowan accepted this task.",
+    "task": "Return JSON with action, owner, due_date, and unresolved. Describe only an active agreed or requested task; a cancelled proposal with no replacement has null action, owner and due_date, and explain the cancellation in unresolved. due_date must be YYYY-MM-DD only when the full date is supplied; otherwise use null and retain any partial date in unresolved. Use null for unknown owner. Preserve negation and superseding records. Do not perform any action."
+  },
+  {
+    "id": "L2",
+    "source": "Record H2: Replace the practice filter on November 2. Nobody has accepted the task; the year is not supplied.",
+    "task": "Return JSON with action, owner, due_date, and unresolved. Describe only an active agreed or requested task; a cancelled proposal with no replacement has null action, owner and due_date, and explain the cancellation in unresolved. due_date must be YYYY-MM-DD only when the full date is supplied; otherwise use null and retain any partial date in unresolved. Use null for unknown owner. Preserve negation and superseding records. Do not perform any action."
+  },
+  {
+    "id": "L3",
+    "source": "Record H3: Do not replace the practice filter on 2026-11-02. The proposal was cancelled. No replacement task was agreed.",
+    "task": "Return JSON with action, owner, due_date, and unresolved. Describe only an active agreed or requested task; a cancelled proposal with no replacement has null action, owner and due_date, and explain the cancellation in unresolved. due_date must be YYYY-MM-DD only when the full date is supplied; otherwise use null and retain any partial date in unresolved. Use null for unknown owner. Preserve negation and superseding records. Do not perform any action."
+  },
+  {
+    "id": "L4",
+    "source": "Record H4 v1: Rowan accepted replacing the practice filter on 2026-11-02. Record H4 v2 supersedes v1: Rowan withdrew. Mei accepted the same task for 2026-11-05.",
+    "task": "Return JSON with action, owner, due_date, and unresolved. Describe only an active agreed or requested task; a cancelled proposal with no replacement has null action, owner and due_date, and explain the cancellation in unresolved. due_date must be YYYY-MM-DD only when the full date is supplied; otherwise use null and retain any partial date in unresolved. Use null for unknown owner. Preserve negation and superseding records. Do not perform any action."
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "version": "1",
+  "fictional": true,
+  "task": "Prepare a draft event note using only these records. Do not book, send, or spend. Flag unknown facts.",
+  "cutoff": "2026-10-18",
+  "sources": [
+    {"id":"S1","date":"2026-10-16","authority":"venue capacity record","text":"Room capacity is 40 people including staff and volunteers.","capacity_people":40},
+    {"id":"S2","date":"2026-10-18","authority":"current coordinator attendance record","text":"32 confirmed guests, plus 3 staff who are not included in the guest count. No duplicates or pending registrations in this fixture.","confirmed_guests":32,"staff":3},
+    {"id":"S3","date":"2026-10-17","authority":"current complete quote and supplied budget","text":"Room rental $240, required cleaning $40, required projector $20. Budget $350. Tax included; no other costs in this fictional exercise. Quote is not a reservation.","rental":240,"cleaning":40,"projector":20,"budget":350},
+    {"id":"S4","date":"2026-10-12","authority":"old draft flyer, superseded by S5 for teaching time","text":"Proposed teaching time: 10:00 on November 7, 2026. Draft only."},
+    {"id":"S5","date":"2026-10-17","authority":"coordinator-approved teaching schedule","text":"Approved teaching time is 11:00 on November 7, 2026. This replaces the old flyer time. Do not infer a room reservation from this schedule."},
+    {"id":"S6","date":"2026-10-18","authority":"building opening-hours record","text":"The building opens 09:00–17:00 on November 7. No room availability or booking record is provided."}
+  ],
+  "draft_claims": [
+    {"id":"C1","text":"We can accept ten more guests within the room capacity."},
+    {"id":"C2","text":"The complete event cost is $280."},
+    {"id":"C3","text":"The budget has $50 remaining after all stated costs."},
+    {"id":"C4","text":"Teaching starts at 10:00."},
+    {"id":"C5","text":"The room is reserved because the building is open."},
+    {"id":"C6","text":"Teaching is approved for 11:00, but the supplied records do not establish room booking."}
+  ],
+  "variation":"Change S2 to 38 confirmed guests plus the same3 staff; all other facts unchanged."
+}

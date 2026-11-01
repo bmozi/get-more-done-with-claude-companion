@@ -1,0 +1,21 @@
+{
+  "status": "unreviewed",
+  "developer_official_release_url": null,
+  "repository_url": null,
+  "publisher_identity_check": null,
+  "upstream_model_and_revision": null,
+  "conversion_publisher_and_method": null,
+  "download_revision_or_digest": null,
+  "files_and_hashes": [],
+  "model_card_url": null,
+  "license_url_and_intended_use_review": null,
+  "format": null,
+  "quantization": null,
+  "runtime_and_version": null,
+  "download_bytes": null,
+  "available_storage_and_reserve": null,
+  "custom_code_required": null,
+  "scan_status_and_limits": null,
+  "decision_and_reason": null,
+  "date_reviewed": null
+}

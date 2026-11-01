@@ -1,0 +1,7 @@
+FICTIONAL TEXT RECEIPT. This is not an OCR/image fixture.
+Supply kits: quantity 2, unit price USD 12.00
+Delivery: USD 3.00
+Total: USD 27.00
+No additional tax or charges in this example.
+Variant: total printed as USD 29.00 but no supporting fee line. Flag discrepancy.
+Separate clear and deliberately obscured PNG fixtures are in chapter-14/. Their reference records the distinction between observed text and inferred values. Live image extraction testing remains unperformed.

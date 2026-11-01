@@ -1,0 +1,6 @@
+Invented interviews for Amara's handout-service exploration. These are authored fixtures, not synthetic evidence about real customers.
+I1: Last workshop, turning revised notes into a current participant handout took repeated editing. Wants one approved brief before layout. No purchase commitment.
+I2: Often corrects dates and instructions after making a handout. Wants a clear review step. No purchase commitment.
+I3: Has readable handouts; difficulty is distributing the current file to participants. No stated need for design service.
+I4: Uses an existing satisfactory template. No stated need for outside help.
+Trial T1, designed record: Five consenting contacts received the offer during a two-week period. Two requested examples. Zero purchases during that period. One response: I already have a template; keeping the facts current is what takes me time. No additional outcome or reason for declining is established.

@@ -1,0 +1,92 @@
+{
+  "normal": {
+    "source_id": "E01-normal",
+    "rows": [
+      {
+        "id": "R01",
+        "people": 1,
+        "meaning": "current"
+      },
+      {
+        "id": "R02",
+        "people": 2,
+        "meaning": "current"
+      },
+      {
+        "id": "R02",
+        "people": 2,
+        "meaning": "accidental_copy"
+      },
+      {
+        "id": "R03",
+        "people": 1,
+        "meaning": "current"
+      },
+      {
+        "id": "R04",
+        "people": 3,
+        "meaning": "current"
+      }
+    ]
+  },
+  "missing": {
+    "source_id": "E01-missing",
+    "rows": [
+      {
+        "id": "R01",
+        "people": 1,
+        "meaning": "current"
+      },
+      {
+        "id": "R02",
+        "people": 2,
+        "meaning": "current"
+      },
+      {
+        "id": "R02",
+        "people": 2,
+        "meaning": "accidental_copy"
+      },
+      {
+        "id": "R03",
+        "people": null,
+        "meaning": "current"
+      },
+      {
+        "id": "R04",
+        "people": 3,
+        "meaning": "current"
+      }
+    ]
+  },
+  "amendment": {
+    "source_id": "E01-amendment",
+    "rows": [
+      {
+        "id": "R01",
+        "people": 1,
+        "meaning": "current"
+      },
+      {
+        "id": "R02",
+        "people": 2,
+        "meaning": "current"
+      },
+      {
+        "id": "R02",
+        "people": 2,
+        "meaning": "amendment"
+      },
+      {
+        "id": "R03",
+        "people": 1,
+        "meaning": "current"
+      },
+      {
+        "id": "R04",
+        "people": 3,
+        "meaning": "current"
+      }
+    ]
+  }
+}

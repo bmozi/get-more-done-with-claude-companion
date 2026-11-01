@@ -1,0 +1,7 @@
+{
+ "evidence":"Authored semantic review key, not observed model output; equivalent wording allowed",
+ "L1":{"action":"replace practice filter","owner":"Rowan","due_date":"2026-11-02","must_preserve":"accepted task; no action actually performed"},
+ "L2":{"action":"replace practice filter","owner":null,"due_date":null,"must_preserve":"owner and year unresolved; November 2 can be retained in unresolved text"},
+ "L3":{"action":null,"owner":null,"due_date":null,"must_preserve":"cancelled proposal, no active replacement task; explicit prohibition representation also acceptable if no active task is created"},
+ "L4":{"action":"replace practice filter","owner":"Mei","due_date":"2026-11-05","must_preserve":"v2 supersedes v1; do not retain Rowan or November2 as current"}
+}

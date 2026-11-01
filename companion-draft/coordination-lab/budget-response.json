@@ -1,0 +1,48 @@
+{
+  "task": "Calculate full commitments, including the refreshments reserve, and remaining approved budget.",
+  "version1": {
+    "budget": 420,
+    "reserve": 60,
+    "sources": ["P2"],
+    "river_room": {
+      "arithmetic": "$300 hire + $40 mandatory cleaning + $60 reserve = $400 full commitment; $420 budget - $400 = $20 remaining",
+      "full_commitment": 400,
+      "remaining_budget": 20,
+      "within_budget": true,
+      "sources": ["P2", "P3"]
+    },
+    "garden_room": {
+      "arithmetic": "$280 hire + $30 mandatory cleaning + $60 reserve = $370 full commitment; $420 budget - $370 = $50 remaining",
+      "full_commitment": 370,
+      "remaining_budget": 50,
+      "within_budget": true,
+      "sources": ["P2", "P4"]
+    },
+    "financial_finding": "Both full commitments fit the budget. Garden Room costs $400 - $370 = $30 less. The lower-cost preference in P7 applies only when both rooms meet requirements."
+  },
+  "version2": {
+    "changed_condition": "One extra guest confirms; all other facts remain unchanged.",
+    "river_room": {
+      "arithmetic": "$300 + $40 + $60 = $400 full commitment; $420 - $400 = $20 remaining",
+      "full_commitment": 400,
+      "remaining_budget": 20,
+      "within_budget": true,
+      "sources": ["P2", "P3", "Changed condition"]
+    },
+    "garden_room": {
+      "arithmetic": "$280 + $30 + $60 = $370 full commitment; $420 - $370 = $50 remaining",
+      "full_commitment": 370,
+      "remaining_budget": 50,
+      "within_budget": true,
+      "sources": ["P2", "P4", "Changed condition"]
+    },
+    "financial_finding": "The additional guest does not change the stated charges or reserve. Both commitments remain within budget; Garden Room remains $30 cheaper. This financial comparison does not establish suitability under the changed condition."
+  },
+  "limits": [
+    "Only the named fictional packet was used. All amounts are USD including tax, with no other charges assumed.",
+    "No room was selected on nonfinancial grounds; capacity and overall suitability require separate assessment.",
+    "Neither room is reserved, and current availability or a hold is not established (P6). Only Lee may authorize booking (P7).",
+    "No files were edited and no external actions were performed.",
+    "The supplied instructions limit task scope; they do not constitute a software sandbox."
+  ]
+}

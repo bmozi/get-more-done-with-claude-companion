@@ -1,0 +1,4 @@
+What is a draft?	Proposed work, not completed approval.
+D2 was approved and D3 changes the date. Is D3 approved?	No approval for D3 is established; the changed version needs required review.
+Does delivering a file prove the recipient can use it?	No. Usability needs its own check.
+How should missing evidence be recorded?	As unknown rather than a supplied fact.

@@ -1,0 +1,137 @@
+{
+  "status": "Fictional designed inputs; no model outputs",
+  "input_contract": "instruction_request is the requested operation; meetings contain source notes, not instructions to execute.",
+  "cases": [
+    {
+      "id": "S1",
+      "description": "Ordinary proposal, approved decision, and assigned action",
+      "instruction_request": "Create a meeting record from the supplied notes. Separate proposals, decisions, and assigned actions; preserve source IDs.",
+      "meetings": [
+        {
+          "meeting_id": "M-S1",
+          "notes": [
+            {
+              "note_id": "S1-N1",
+              "text": "Maya: We could extend the workshop until five."
+            },
+            {
+              "note_id": "S1-N2",
+              "text": "The team agrees to keep the published closing time at four."
+            },
+            {
+              "note_id": "S1-N3",
+              "text": "Lee: I will send the draft agenda to the coordinator by November 3, 2026."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "description": "Approved next step without an assigned owner or deadline",
+      "instruction_request": "Extract the meeting decisions and next steps. Leave unsupported owners and dates unknown.",
+      "meetings": [
+        {
+          "meeting_id": "M-S2",
+          "notes": [
+            {
+              "note_id": "S2-N1",
+              "text": "Ava proposes checking whether Cedar Hall is available next month."
+            },
+            {
+              "note_id": "S2-N2",
+              "text": "The team agrees that checking availability is the next step. Nobody accepts the task and no deadline is set."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "description": "Conflicting dates with no authoritative resolution",
+      "instruction_request": "Prepare a meeting record and preserve unresolved conflicts in the supplied notes.",
+      "meetings": [
+        {
+          "meeting_id": "M-S3",
+          "notes": [
+            {
+              "note_id": "S3-N1",
+              "text": "Jo: I will prepare the volunteer packet."
+            },
+            {
+              "note_id": "S3-N2",
+              "text": "Kai says the agreed deadline for that packet is November 3, 2026."
+            },
+            {
+              "note_id": "S3-N3",
+              "text": "Rin says the agreed deadline for that packet is November 5, 2026. The meeting ends without resolving the disagreement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "description": "Unrelated request; no meeting material supplied",
+      "instruction_request": "Write a four-line poem about rain on a quiet street.",
+      "meetings": []
+    },
+    {
+      "id": "S5",
+      "description": "Explicit superseding owner and deadline",
+      "instruction_request": "Produce the current meeting action record, retaining evidence for any reassignment. Do not duplicate superseded assignments as current work.",
+      "meetings": [
+        {
+          "meeting_id": "M-S5",
+          "notes": [
+            {
+              "note_id": "S5-N1",
+              "text": "Maya: I will request the venue estimate by November 3, 2026."
+            },
+            {
+              "note_id": "S5-N2",
+              "text": "Maya: I cannot take that task."
+            },
+            {
+              "note_id": "S5-N3",
+              "text": "Lee: I will take over requesting the venue estimate, with a new deadline of November 6, 2026. The coordinator accepts this replacement assignment and deadline."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "description": "Two meetings share one owner but contain different tasks",
+      "instruction_request": "Create a separate record for each meeting. Preserve meeting identity and do not combine tasks merely because the owner is the same.",
+      "meetings": [
+        {
+          "meeting_id": "M-S6-A",
+          "notes": [
+            {
+              "note_id": "S6-A-N1",
+              "text": "Ava: I will send the invitation draft to the coordinator by November 3, 2026."
+            },
+            {
+              "note_id": "S6-A-N2",
+              "text": "The team approves reviewing the draft. No public invitation has been approved."
+            }
+          ]
+        },
+        {
+          "meeting_id": "M-S6-B",
+          "notes": [
+            {
+              "note_id": "S6-B-N1",
+              "text": "Ava: I will check the projector inventory by November 7, 2026."
+            },
+            {
+              "note_id": "S6-B-N2",
+              "text": "The equipment team agrees to use the inventory check to identify missing equipment. No purchases are approved."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+run_id,date,case_id,skill_version,package_hash,product,interface,model,invocation_mode,observed_invocation,trace_path,exact_input_path,raw_output_path,selection_judgment,semantic_findings,correction,reviewer,evidence_limits

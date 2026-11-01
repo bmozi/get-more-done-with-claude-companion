@@ -1,0 +1,32 @@
+{
+  "task": "Assess capacity, stated facilities, and unresolved booking facts without calculating costs.",
+  "version1": {
+    "attendance": 10,
+    "attendance_basis": "Eight guests plus two staff (P1).",
+    "rooms": [
+      {"name": "River Room", "capacity": 12, "occupancy_percent": 83.33, "spare_capacity": 2, "capacity_suitable": true, "sources": ["P1", "P3"]},
+      {"name": "Garden Room", "capacity": 10, "occupancy_percent": 100, "spare_capacity": 0, "capacity_suitable": true, "sources": ["P1", "P4"]}
+    ],
+    "facilities": "Both rooms have confirmed step-free access and included working projectors (P5).",
+    "finding": "Both meet the stated capacity and facility requirements. Garden Room has no spare capacity. Final selection remains subject to the separate cost assessment and unresolved booking facts (P6–P7).",
+    "booking_status": "Both quotes cover November 14, but neither room is reserved and current availability or a hold is not established. Only Lee may authorize booking (P6–P7)."
+  },
+  "version2": {
+    "attendance": 11,
+    "attendance_basis": "Nine guests plus two staff after the extra guest confirms (P1 and changed condition).",
+    "rooms": [
+      {"name": "River Room", "capacity": 12, "occupancy_percent": 91.67, "spare_capacity": 1, "capacity_suitable": true, "sources": ["P1", "P3", "changed condition"]},
+      {"name": "Garden Room", "capacity": 10, "occupancy_percent": 110, "spare_capacity": -1, "capacity_suitable": false, "sources": ["P1", "P4", "changed condition"]}
+    ],
+    "facilities": "The confirmed step-free access and included working projectors remain unchanged (P5 and changed condition).",
+    "finding": "River Room meets the stated capacity and facility requirements with one spare place. Garden Room is one place short and does not meet the capacity requirement.",
+    "booking_status": "River Room still requires availability confirmation and Lee's authorization before booking. No reservation or hold is established (P6–P7)."
+  },
+  "limits": [
+    "Assessment uses only the named fictional packet.",
+    "Occupancy percentages are calculated demand divided by stated capacity, rounded to two decimal places; they do not describe actual attendance or a confirmed booking.",
+    "Costs and budget suitability were not calculated.",
+    "No files were edited and no external actions were performed.",
+    "The supplied instructions restricted task scope; they do not constitute a software sandbox."
+  ]
+}

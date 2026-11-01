@@ -1,0 +1,1 @@
+run_id,date,task,product,interface,model,tools,access_constraints,input_hash,prompt_hash,raw_output_path,required_checks,observed_failures,setup_minutes,review_minutes,retry_minutes,cost_and_units,unresolved,reviewer,decision

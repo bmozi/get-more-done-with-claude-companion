@@ -1,0 +1,11 @@
+test_amendment_does_not_deduplicate_even_with_missing_count (test_runner.RunbookTests.test_amendment_does_not_deduplicate_even_with_missing_count) ... ok
+test_bad_counts_rejected (test_runner.RunbookTests.test_bad_counts_rejected) ... ok
+test_cases_match_independent_key_without_mutation (test_runner.RunbookTests.test_cases_match_independent_key_without_mutation) ... ok
+test_cli_all_cases_preserve_fixture_bytes (test_runner.RunbookTests.test_cli_all_cases_preserve_fixture_bytes) ... ok
+test_undeclared_duplicate_requires_clarification (test_runner.RunbookTests.test_undeclared_duplicate_requires_clarification) ... ok
+test_zero_is_known_not_missing (test_runner.RunbookTests.test_zero_is_known_not_missing) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.063s
+
+OK

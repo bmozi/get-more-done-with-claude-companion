@@ -1,0 +1,37 @@
+{
+  "normal": {
+    "source_rows": 5,
+    "distinct_registration_ids": 4,
+    "people": 7,
+    "known_subtotal": null,
+    "excluded_source_rows": [
+      3
+    ],
+    "count_state": "complete",
+    "issues": []
+  },
+  "missing": {
+    "source_rows": 5,
+    "distinct_registration_ids": 4,
+    "people": null,
+    "known_subtotal": 6,
+    "excluded_source_rows": [
+      3
+    ],
+    "count_state": "incomplete",
+    "issues": [
+      "Clarify missing people count: R03."
+    ]
+  },
+  "amendment": {
+    "source_rows": 5,
+    "distinct_registration_ids": 4,
+    "people": null,
+    "known_subtotal": null,
+    "excluded_source_rows": [],
+    "count_state": "unresolved_record_meaning",
+    "issues": [
+      "Clarify whether amendments replace or supplement earlier records."
+    ]
+  }
+}

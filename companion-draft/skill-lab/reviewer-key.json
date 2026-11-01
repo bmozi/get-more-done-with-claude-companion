@@ -1,0 +1,96 @@
+{
+  "evidence_status": "Designed semantic expectations for fictional cases; no actual skill or model outputs. Keep this file out of model evaluation inputs.",
+  "selection_evidence": "Expected run/notrun describes skill applicability. Verify actual selection using available invocation traces separately from response correctness; a suitable answer alone does not prove a skill ran.",
+  "global_checks": [
+    "Treat instruction_request as the task and meetings[].notes as source data.",
+    "Preserve meeting and note IDs with claims; do not fabricate commitments, owners, dates, approvals, sending, or bookings.",
+    "Unknowns and unresolved conflicts are acceptable results; output formatting alone does not establish accuracy.",
+    "Judge semantic meaning rather than demanding exact prose. A summary may combine a proposal and its adopted decision if it preserves their distinct authority."
+  ],
+  "cases": [
+    {
+      "id": "S1",
+      "expected_selection": "run",
+      "semantic_checks": [
+        "S1-N1 is only a proposal; extending to five is not approved.",
+        "S1-N2 establishes the decision to keep four.",
+        "S1-N3 assigns Lee to send the draft agenda to the coordinator by November 3, 2026; retain owner, task, deadline, and source.",
+        "An assigned future sending action is not evidence that a message has already been sent."
+      ],
+      "material_failure_examples": [
+        "Claims workshop is extended until five.",
+        "Drops Lee or the explicit date from the assigned action."
+      ]
+    },
+    {
+      "id": "S2",
+      "expected_selection": "run",
+      "semantic_checks": [
+        "M-S2 has an approved next step to check venue availability under S2-N2.",
+        "Owner remains unassigned and deadline remains unset; Ava proposing the idea does not assign it to Ava.",
+        "No venue availability or booking is established."
+      ],
+      "material_failure_examples": [
+        "Assigns the check to Ava or the whole team as an established owner.",
+        "Invents a deadline or confirmed venue."
+      ]
+    },
+    {
+      "id": "S3",
+      "expected_selection": "run",
+      "semantic_checks": [
+        "Jo owns preparation of the volunteer packet under S3-N1.",
+        "November 3 and November 5, 2026 are competing deadline claims under S3-N2 and S3-N3.",
+        "Keep the operative deadline unresolved and request authoritative clarification; do not select, average, or silently prefer the later statement.",
+        "Preserve both conflicting source IDs."
+      ],
+      "material_failure_examples": [
+        "Chooses November 5 because it appears last.",
+        "Uses November 4 as a compromise date.",
+        "Treats Kai or Rin as packet owner."
+      ]
+    },
+    {
+      "id": "S4",
+      "expected_selection": "notrun",
+      "semantic_checks": [
+        "No meeting-record skill invocation is appropriate: this is a poem request with no meeting notes.",
+        "Do not invent a meeting, decision table, attendee, or assigned action.",
+        "A normal poem response can satisfy the request; its wording is not a meeting extraction test."
+      ],
+      "material_failure_examples": [
+        "Invokes the meeting-record skill for this unrelated request.",
+        "Asks for missing meeting owners or dates instead of addressing the poem request."
+      ]
+    },
+    {
+      "id": "S5",
+      "expected_selection": "run",
+      "semantic_checks": [
+        "Current assignment in M-S5 is Lee requesting the venue estimate by November 6, 2026 under S5-N3.",
+        "S5-N2 withdraws Maya; S5-N3 explicitly replaces both owner and deadline.",
+        "Historical Maya/November 3 may be retained only as superseded history, not a second current action.",
+        "Do not treat the estimate request as venue booking approval."
+      ],
+      "material_failure_examples": [
+        "Lists Maya and Lee as concurrent owners.",
+        "Keeps November 3 as the current deadline."
+      ]
+    },
+    {
+      "id": "S6",
+      "expected_selection": "run",
+      "semantic_checks": [
+        "Keep M-S6-A and M-S6-B distinct.",
+        "M-S6-A: Ava sends the invitation draft to the coordinator by November 3, 2026 under S6-A-N1; review is approved but public invitation is not under S6-A-N2.",
+        "M-S6-B: Ava checks projector inventory by November 7, 2026 under S6-B-N1; no purchases are approved under S6-B-N2.",
+        "Both actions remain current; shared ownership is not evidence of duplication or supersession.",
+        "Preserve the deadline and source IDs belonging to each task."
+      ],
+      "material_failure_examples": [
+        "Merges both tasks into one action or overwrites November 3 with November 7.",
+        "Claims invitations have been sent publicly or equipment purchases approved."
+      ]
+    }
+  ]
+}

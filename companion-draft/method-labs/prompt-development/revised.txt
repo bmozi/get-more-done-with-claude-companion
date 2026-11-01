@@ -1,0 +1,1 @@
+Extract proposals, decisions, and assigned actions separately. Give each row its supporting note IDs. Record an owner or date only when the notes establish one; otherwise write “Not assigned” or “Not set.” Do not turn suggestions into commitments. Preserve unresolved disagreements. Return a table with status, statement, evidence, owner, and due date.

@@ -1,0 +1,8 @@
+step_id,planned_step,observed_date,actual_observation,evidence_file,deviation,corrective_action,status,unresolved_dependency
+1,Inventory delivered hardware,,,,,,unrun,Machine arrival
+2,Review runtime and model source,,,,,,unrun,Candidate selection
+3,Verify local server and downloaded model,,,,,,unrun,Installation and download
+4,Run fictional cases and inspect raw responses,,,,,,unrun,Verified local runtime
+5,Measure larger model and context separately,,,,,,unrun,Initial task baseline
+6,Add retrieval and bounded tool use,,,,,,unrun,Task and boundary checks
+7,Reconcile design with observed experience,,,,,,unrun,Executed evidence

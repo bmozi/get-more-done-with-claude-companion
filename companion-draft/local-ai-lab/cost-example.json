@@ -1,0 +1,37 @@
+{
+  "evidence": "fictional teaching inputs; not measured hardware, provider pricing, an invoice, or a purchase recommendation",
+  "currency": "USD",
+  "hardware_purchase": 2400,
+  "useful_months": 36,
+  "ai_use_fraction": 0.5,
+  "incremental_watts": 120,
+  "active_hours_month": 40,
+  "electricity_per_kwh": 0.2,
+  "maintenance_hours_month": 1,
+  "time_value_per_hour": 30,
+  "attempted_tasks": 60,
+  "review_minutes_per_attempt": 2,
+  "accepted_tasks": 48,
+  "changed_condition_accepted_tasks": 24,
+  "excluded_costs": [
+    "tax",
+    "financing",
+    "resale value",
+    "extra storage",
+    "backups",
+    "network equipment",
+    "provider subscriptions or tools",
+    "one-time installation time"
+  ],
+  "calculated": {
+    "hardware_allocation": 33.33,
+    "electricity": 0.96,
+    "maintenance_time_value": 30,
+    "review_time_value": 60.0,
+    "allocated_economic_total": 124.29,
+    "economic_total_without_hardware": 90.96,
+    "allocated_per_accepted": 2.59,
+    "without_hardware_per_accepted": 1.9,
+    "changed_condition_per_accepted": 5.18
+  }
+}

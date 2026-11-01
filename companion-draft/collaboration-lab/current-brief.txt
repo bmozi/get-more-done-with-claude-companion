@@ -1,0 +1,9 @@
+Fictional reading-discussion task.
+Source: the supplied invented passage in ../prompt-builder/project/passage.txt.
+Audience: four adults.
+Initial duration: fifteen minutes total.
+Initial output: three discussion questions and a readable one-page facilitator note including the passage.
+Acceptable illustrative timing: two minutes reading, ten discussing, three closing. Other allocations may work if they total fifteen and serve the purpose.
+Use only the passage for factual claims; label interpretations and unanswered questions.
+Do not invent the envelope's sender, the tree planter's name, or a founder of the garden.
+This exercise prepares text only; no actual gathering, contact or publication occurs.

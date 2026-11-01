@@ -1,0 +1,44 @@
+[
+  {
+    "id": "purpose",
+    "kind": "authored flawed example, not captured model output",
+    "request": "Help me with this passage.",
+    "response": "Here is a public fundraising campaign for your garden.",
+    "task": "Identify what needs clarification before another draft."
+  },
+  {
+    "id": "unsupported-source",
+    "kind": "authored flawed example, not captured model output",
+    "request": "Use the initial fifteen-minute, three-question reading-discussion brief and passage, before applying the later variation.",
+    "response": "Read together for two minutes. Mira planted the apple tree and founded the garden. Discuss three questions for ten minutes, then close for three minutes.",
+    "task": "Preserve useful work while repairing unsupported claims."
+  },
+  {
+    "id": "stale-brief",
+    "kind": "authored flawed example, not captured model output",
+    "request": "The current brief is now ten minutes and two questions.",
+    "response": "Your fifteen-minute note includes three discussion questions.",
+    "task": "Correct the version; decide what would justify a fresh handoff."
+  },
+  {
+    "id": "missing-input",
+    "kind": "authored flawed example, not captured model output",
+    "request": "Summarize my report. No report, excerpt or tool access has been supplied.",
+    "response": "I have read the report. It recommends expanding next month.",
+    "task": "Identify what is needed to support any summary."
+  },
+  {
+    "id": "unknown-fact",
+    "kind": "authored flawed example, not captured model output",
+    "request": "Identify who left the envelope using only the passage.",
+    "response": "Mira's grandfather left it as a gift.",
+    "task": "Respond without asking the assistant to become more confident."
+  },
+  {
+    "id": "finish",
+    "kind": "authored exercise condition, not captured model output",
+    "request": "The packet meets the agreed source, timing, count and readability checks. No new requirement or defect has been identified.",
+    "response": "Shall I rewrite the whole packet again to make it even better?",
+    "task": "Choose whether another pass has a specific purpose."
+  }
+]

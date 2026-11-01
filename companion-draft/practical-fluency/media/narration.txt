@@ -1,0 +1,1 @@
+Open the checklist. Compare each item with the supplied kit list. Mark only what you actually checked. Export the handoff note before resetting the page.

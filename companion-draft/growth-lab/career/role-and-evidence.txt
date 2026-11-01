@@ -1,0 +1,5 @@
+Invented target-role excerpt: Summarize a small issue log accurately, explain process problems, and prepare clear handoffs. The exercise does not supply an actual vacancy or hiring standard.
+Fictional Elena's supplied evidence: Organized shift handoffs and maintained an issue log as a customer-support specialist. No department management, financial forecasting or measured delay reduction is supplied.
+Practice goal: Prepare a short operations briefing and explain its counting rule.
+Ticket rule: Use the latest update date per ticket ID. Waiting is its own state, not Open. Overdue is the supplied flag; no due-date inference is required. All updates are fictional and use ISO dates.
+No resolution timestamps or prior-period comparison are supplied.

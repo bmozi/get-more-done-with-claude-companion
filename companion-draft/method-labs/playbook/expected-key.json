@@ -1,0 +1,18 @@
+{
+  "status":"Human-readable designed answer key, not model output",
+  "seven_confirmed":{
+    "directions":{"branches":["directions_draft"],"missing_facts":[],"blocking_conditions":[],"status":"directions_draft_ready"},
+    "three":{"branches":["capacity_review"],"missing_facts":[],"blocking_conditions":["coordinator_register_check_required"],"status":"review_required"},
+    "six":{"branches":["capacity_conflict"],"missing_facts":[],"blocking_conditions":["capacity_conflict","coordinator_register_check_required"],"status":"review_required"},
+    "unknown-count":{"branches":["clarify_count"],"missing_facts":["requested_count"],"blocking_conditions":["count_unknown","coordinator_register_check_required"],"status":"review_required"},
+    "three-access":{"branches":["capacity_review","access_review"],"missing_facts":["coordinator_access_confirmation"],"blocking_conditions":["coordinator_register_check_required","access_unconfirmed"],"status":"review_required"}
+  },
+  "ten_confirmed":{
+    "directions":["directions_draft"],
+    "three":["capacity_conflict"],
+    "six":["capacity_conflict"],
+    "unknown-count":["clarify_count"],
+    "three-access":["capacity_conflict","access_review"]
+  },
+  "invariants":{"seven_remaining":5,"ten_remaining":2,"allocated_places":0,"confirmation_authorized":false,"sent":false}
+}

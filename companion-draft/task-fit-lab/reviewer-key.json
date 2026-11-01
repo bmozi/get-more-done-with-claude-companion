@@ -1,0 +1,7 @@
+{
+  "status":"Designed reference; not any model's result. Withhold from candidate systems.",
+  "source_rows":5,"excluded_sources":["R4"],"total":4,"open":3,"closed":1,"overdue":1,"due_today":1,"unknown_due":1,
+  "members":{"open":["T101","T103","T104"],"closed":["T102"],"overdue":["T101"],"due_today":["T103"],"unknown_due":["T104"]},
+  "changed_condition":{"snapshot_date":"2026-10-19","overdue":2,"due_today":0,"unknown_due":1},
+  "checks":["Counts trace to source records.","Missing due date is not zero lateness.","Static input is labeled with snapshot date, not live.","No causes or employee ratings inferred.","Duplicate removal is justified by explicit meaning, not repeated ID alone."]
+}

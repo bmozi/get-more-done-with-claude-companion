@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-18",
+  "environment": "Codex desktop session collaboration.spawn_agent",
+  "model": "inherited session setting; no per-worker identifier returned by tool",
+  "fork_turns": "none",
+  "paid_api_calls": false,
+  "dispatches": [
+    {
+      "task_name": "trial_budget",
+      "message": "Read /Users/briggs/Documents/ChatGPT/Writing Lab/The Claude Playbook/companion-draft/coordination-lab/budget-assignment.txt and perform that assignment. Do not inspect any other context except the packet it names. No writes or external actions."
+    },
+    {
+      "task_name": "trial_suitability",
+      "message": "Read /Users/briggs/Documents/ChatGPT/Writing Lab/The Claude Playbook/companion-draft/coordination-lab/suitability-assignment.txt and perform that assignment. Do not inspect any other context except the packet it names. No writes or external actions."
+    }
+  ],
+  "order": "budget completed before suitability dispatch; no speed comparison",
+  "response_preservation": "Final message JSON values transcribed; whitespace formatting may differ; not full tool transcript",
+  "hashes": {
+    "budget-assignment.txt": "17fb2dcdb95055a6658413c5a721956fcfd5b68fafb0e3a537a6fac61726b212",
+    "suitability-response.json": "aed4a02a5658e51d728610f9027ac11aa6b844582843acf4cc00c6fad159e9ad",
+    "budget-response.json": "c2364707cfd5e7d1c638f753c8e71ac14bab9d8db5aa6e8e5e1d5834c081185c",
+    "README.md": "4930e23b07c90721e9846519c122e49f78be2177f41c33c327df933aed19cc84",
+    "packet-v1.txt": "63561a253023b3fb83553fc917ca2a0d4335b20efd4c71d6f61ed14c368b226c",
+    "suitability-assignment.txt": "5773151d99826fbe77eb545ab8a52ce358d370960030d400d1a5da4b7ceefdff"
+  },
+  "review": "Root compared both responses to P1-P7 and recomputed costs and capacity. No material error found in these two supplied-input responses. Suitability worker added correctly rounded occupancy percentages, unnecessary for the task; they are demand/capacity, not observed attendance.",
+  "integration": {
+    "v1": {
+      "candidate": "Garden",
+      "commitment": 370,
+      "occupants": 10,
+      "spare": 0
+    },
+    "v2": {
+      "candidate": "River",
+      "commitment": 400,
+      "occupants": 11,
+      "spare": 1
+    },
+    "authority": "Proposal only. Lee authorization and current availability required."
+  },
+  "limits": [
+    "One packet, two version conditions within each worker context; not independent repetitions",
+    "No Claude runtime/configuration verification",
+    "No performance, learning or enforced sandbox evidence",
+    "Worker self-reports about actions are not system audit logs"
+  ]
+}

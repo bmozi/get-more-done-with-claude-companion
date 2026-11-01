@@ -1,0 +1,16 @@
+{
+  "fictional": true,
+  "currency": "USD",
+  "scope": "One two-page handout from an approved brief; one revision; accessible PDF and editable source; distribution excluded",
+  "price": 180,
+  "direct_cash_cost": 20,
+  "planned_hours": 4,
+  "time_value_per_hour": 30,
+  "overrun_hours": 6,
+  "deposit_received": 90,
+  "final_invoice_unpaid": 90,
+  "later_final_payment_received": 90,
+  "next_job_direct_spend_before_new_receipt": 80,
+  "excluded": ["shared expenses", "taxes", "other unlisted costs"],
+  "note": "This separately accepted fictional job is not a sale attributed to trial T1. Labor allowance is not a recorded cash payment."
+}

@@ -1,0 +1,9 @@
+{
+  "confirmed": "2026-11-01",
+  "tasks": [
+    {"id": "H1", "task": "Replace practice filter", "due": "2026-11-01", "status": "Open"},
+    {"id": "H2", "task": "Inspect storage shelf", "due": "2026-11-04", "status": "Open"},
+    {"id": "H3", "task": "Replace lamp", "due": "2026-10-30", "status": "Done"},
+    {"id": "H4", "task": "Check spare batteries", "due": null, "status": "Open"}
+  ]
+}

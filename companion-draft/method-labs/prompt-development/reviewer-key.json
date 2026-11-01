@@ -1,0 +1,35 @@
+{
+  "D1": {
+    "checks": [
+      "N1 remains a proposal, no assigned owner or due date.",
+      "N2 is the approved four oclock decision.",
+      "N3/N4 establish Maya as inquiry owner, no deadline."
+    ]
+  },
+  "D2": {
+    "checks": [
+      "Keep closing time four.",
+      "N5 supersedes Maya with Lee for the inquiry; November 3, 2026 deadline.",
+      "Do not create two current inquiry assignments."
+    ]
+  },
+  "E1": {
+    "checks": [
+      "Proposal is withdrawn under N2; may retain it with explicit withdrawn status.",
+      "No banner purchase, assigned action, owner or deadline is established."
+    ]
+  },
+  "E2": {
+    "checks": [
+      "Ten versus twelve remains unresolved; do not select or average a capacity.",
+      "Checking the venue record is an agreed next step with no assigned owner or deadline.",
+      "Do not invent an assigned action owner to complete the table."
+    ]
+  },
+  "E3": {
+    "checks": [
+      "Ava owns the draft-sending action due November 3, 2026 under N1.",
+      "N2 approves review, not event booking."
+    ]
+  }
+}

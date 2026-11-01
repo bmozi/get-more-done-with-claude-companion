@@ -1,0 +1,14 @@
+{
+  "snapshot_id": "fictional-ten-confirmed",
+  "capacity": 12,
+  "confirmed": 10,
+  "approved_address": "Cedar Hall, 10 Example Lane",
+  "rules": {
+    "B01": "Capacity is 12 participants. Volunteers are counted separately.",
+    "B02": "Ten participant places are confirmed in this updated snapshot.",
+    "B03": "Coordinator checks current register before any proposed allocation. Drafting reserves nothing.",
+    "B04": "Requests above remaining capacity go to coordinator review. No partial allocation promise.",
+    "B05": "Access arrangements require individual coordinator confirmation.",
+    "B06": "Confirmed participants asking only for directions may receive the approved address in a draft."
+  }
+}

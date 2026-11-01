@@ -1,0 +1,6 @@
+registration_id,people,note
+R01,1,original
+R02,2,original
+R02,2,accidental duplicate of preceding row
+R03,1,original
+R04,3,original

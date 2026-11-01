@@ -1,0 +1,295 @@
+{
+  "base": {
+    "case": "base",
+    "execution_kind": "deterministic reference; no model calls",
+    "source": {
+      "task_id": "chapter44-venue",
+      "source_version": "1",
+      "B1": {
+        "budget": 450,
+        "materials_reserve": 100
+      },
+      "B2": {
+        "occupancy": 10,
+        "includes_volunteers": true
+      },
+      "Q1": {
+        "venue": "Elm Room",
+        "rental": 280,
+        "required_cleaning": 90,
+        "capacity": 12
+      },
+      "Q2": {
+        "venue": "Pine Room",
+        "all_inclusive": 320,
+        "capacity": 10
+      },
+      "U1": {
+        "availability": "unconfirmed"
+      }
+    },
+    "extraction": {
+      "task_id": "chapter44-venue",
+      "source_version": "1",
+      "output_version": "1",
+      "budget": 450,
+      "reserve": 100,
+      "budget_source": "B1",
+      "occupancy": 10,
+      "occupancy_source": "B2",
+      "includes_volunteers": true,
+      "availability": "unconfirmed",
+      "availability_source": "U1",
+      "venues": [
+        {
+          "name": "Elm Room",
+          "source": "Q1",
+          "charges": {
+            "rental": 280,
+            "required_cleaning": 90
+          },
+          "capacity": 12
+        },
+        {
+          "name": "Pine Room",
+          "source": "Q2",
+          "charges": {
+            "all_inclusive": 320
+          },
+          "capacity": 10
+        }
+      ]
+    },
+    "status": "completed",
+    "validation": "source fidelity passed",
+    "calculation": {
+      "task_id": "chapter44-venue",
+      "source_version": "1",
+      "input_output_version": "1",
+      "venues": [
+        {
+          "name": "Elm Room",
+          "venue_cost": 370,
+          "total": 470,
+          "budget_remaining": -20,
+          "spare_capacity": 2,
+          "meets_constraints": false,
+          "sources": [
+            "Q1",
+            "B1",
+            "B2"
+          ]
+        },
+        {
+          "name": "Pine Room",
+          "venue_cost": 320,
+          "total": 420,
+          "budget_remaining": 30,
+          "spare_capacity": 0,
+          "meets_constraints": true,
+          "sources": [
+            "Q2",
+            "B1",
+            "B2"
+          ]
+        }
+      ],
+      "eligible_venues": [
+        "Pine Room"
+      ],
+      "availability": "unconfirmed",
+      "availability_source": "U1"
+    },
+    "explanation": {
+      "text": "Pine Room fits the current plan at $420 including materials, leaving $30. Its ten places exactly match our expected occupancy. Elm would cost $470 and exceed the budget. Confirm Pine's availability before making a commitment.",
+      "sources": [
+        "B1",
+        "B2",
+        "Q1",
+        "Q2",
+        "U1"
+      ],
+      "booking": "not established",
+      "actions_taken": [],
+      "state": "draft"
+    }
+  },
+  "occupancy11": {
+    "case": "occupancy11",
+    "execution_kind": "deterministic reference; no model calls",
+    "source": {
+      "task_id": "chapter44-venue",
+      "source_version": "2-occupancy11",
+      "B1": {
+        "budget": 450,
+        "materials_reserve": 100
+      },
+      "B2": {
+        "occupancy": 11,
+        "includes_volunteers": true
+      },
+      "Q1": {
+        "venue": "Elm Room",
+        "rental": 280,
+        "required_cleaning": 90,
+        "capacity": 12
+      },
+      "Q2": {
+        "venue": "Pine Room",
+        "all_inclusive": 320,
+        "capacity": 10
+      },
+      "U1": {
+        "availability": "unconfirmed"
+      }
+    },
+    "extraction": {
+      "task_id": "chapter44-venue",
+      "source_version": "2-occupancy11",
+      "output_version": "1",
+      "budget": 450,
+      "reserve": 100,
+      "budget_source": "B1",
+      "occupancy": 11,
+      "occupancy_source": "B2",
+      "includes_volunteers": true,
+      "availability": "unconfirmed",
+      "availability_source": "U1",
+      "venues": [
+        {
+          "name": "Elm Room",
+          "source": "Q1",
+          "charges": {
+            "rental": 280,
+            "required_cleaning": 90
+          },
+          "capacity": 12
+        },
+        {
+          "name": "Pine Room",
+          "source": "Q2",
+          "charges": {
+            "all_inclusive": 320
+          },
+          "capacity": 10
+        }
+      ]
+    },
+    "status": "completed",
+    "validation": "source fidelity passed",
+    "calculation": {
+      "task_id": "chapter44-venue",
+      "source_version": "2-occupancy11",
+      "input_output_version": "1",
+      "venues": [
+        {
+          "name": "Elm Room",
+          "venue_cost": 370,
+          "total": 470,
+          "budget_remaining": -20,
+          "spare_capacity": 1,
+          "meets_constraints": false,
+          "sources": [
+            "Q1",
+            "B1",
+            "B2"
+          ]
+        },
+        {
+          "name": "Pine Room",
+          "venue_cost": 320,
+          "total": 420,
+          "budget_remaining": 30,
+          "spare_capacity": -1,
+          "meets_constraints": false,
+          "sources": [
+            "Q2",
+            "B1",
+            "B2"
+          ]
+        }
+      ],
+      "eligible_venues": [],
+      "availability": "unconfirmed",
+      "availability_source": "U1"
+    },
+    "explanation": {
+      "text": "Neither venue meets both constraints. Elm costs $470, exceeding the $450 budget. Pine costs $420 but holds only ten of the eleven people. Seek another venue or ask whether a constraint may change. Availability remains unconfirmed.",
+      "sources": [
+        "B1",
+        "B2",
+        "Q1",
+        "Q2",
+        "U1"
+      ],
+      "booking": "not established",
+      "actions_taken": [],
+      "state": "draft"
+    }
+  },
+  "omitted-cleaning": {
+    "case": "omitted-cleaning",
+    "execution_kind": "deterministic reference; no model calls",
+    "source": {
+      "task_id": "chapter44-venue",
+      "source_version": "1",
+      "B1": {
+        "budget": 450,
+        "materials_reserve": 100
+      },
+      "B2": {
+        "occupancy": 10,
+        "includes_volunteers": true
+      },
+      "Q1": {
+        "venue": "Elm Room",
+        "rental": 280,
+        "required_cleaning": 90,
+        "capacity": 12
+      },
+      "Q2": {
+        "venue": "Pine Room",
+        "all_inclusive": 320,
+        "capacity": 10
+      },
+      "U1": {
+        "availability": "unconfirmed"
+      }
+    },
+    "extraction": {
+      "task_id": "chapter44-venue",
+      "source_version": "1",
+      "output_version": "1",
+      "budget": 450,
+      "reserve": 100,
+      "budget_source": "B1",
+      "occupancy": 10,
+      "occupancy_source": "B2",
+      "includes_volunteers": true,
+      "availability": "unconfirmed",
+      "availability_source": "U1",
+      "venues": [
+        {
+          "name": "Elm Room",
+          "source": "Q1",
+          "charges": {
+            "rental": 280
+          },
+          "capacity": 12
+        },
+        {
+          "name": "Pine Room",
+          "source": "Q2",
+          "charges": {
+            "all_inclusive": 320
+          },
+          "capacity": 10
+        }
+      ]
+    },
+    "status": "rejected",
+    "validation": "Extracted handoff differs from the source; repair extraction before recommending.",
+    "calculation": null,
+    "explanation": null
+  }
+}

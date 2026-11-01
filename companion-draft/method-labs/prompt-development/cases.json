@@ -1,0 +1,48 @@
+[
+  {
+    "id": "D1",
+    "purpose": "development",
+    "notes": [
+      "N1: Maya: We could extend the event until five.",
+      "N2: Lee: Let's keep the published closing time at four. Team agrees.",
+      "N3: Maya: I will ask the venue about next month's availability.",
+      "N4: No date was set for Maya's inquiry."
+    ]
+  },
+  {
+    "id": "D2",
+    "purpose": "development variation",
+    "notes": [
+      "N1: Maya: We could extend the event until five.",
+      "N2: Lee: Let's keep the published closing time at four. Team agrees.",
+      "N3: Maya: I will ask the venue about next month's availability.",
+      "N4: No date was set for Maya's inquiry.",
+      "N5: Maya: I cannot make that inquiry. Lee: I will take it and report back on November 3, 2026."
+    ]
+  },
+  {
+    "id": "E1",
+    "purpose": "public evaluation practice",
+    "notes": [
+      "N1: Sam: I suggest printing a banner.",
+      "N2: Sam: I withdraw that suggestion. No banner decision was made."
+    ]
+  },
+  {
+    "id": "E2",
+    "purpose": "public evaluation practice",
+    "notes": [
+      "N1: Jo says the room holds ten people.",
+      "N2: Kai says it holds twelve. No authoritative capacity record was supplied.",
+      "N3: The team agrees to check the venue record before selecting a room. No owner or deadline was assigned."
+    ]
+  },
+  {
+    "id": "E3",
+    "purpose": "public evaluation practice",
+    "notes": [
+      "N1: Ava: I will send the draft to the coordinator by November 3, 2026.",
+      "N2: The team approves the draft review step. No event booking was approved."
+    ]
+  }
+]

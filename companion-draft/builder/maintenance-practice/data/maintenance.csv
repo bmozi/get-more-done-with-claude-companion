@@ -1,0 +1,6 @@
+id,item,due_date,status
+M01,Practice filter,2026-10-16,open
+M02,Practice inspection,2026-10-17,open
+M03,Practice replacement,2026-10-18,open
+M04,Completed practice task,2026-10-01,done
+M05,Unscheduled practice task,,open

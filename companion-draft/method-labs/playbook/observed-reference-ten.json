@@ -1,0 +1,121 @@
+[
+  {
+    "request_id": "directions",
+    "snapshot_id": "fictional-ten-confirmed",
+    "apparent_remaining": 2,
+    "branches": [
+      "directions_draft"
+    ],
+    "policy_references": [
+      "B06"
+    ],
+    "missing_facts": [],
+    "blocking_conditions": [],
+    "allocated_places": 0,
+    "confirmation_authorized": false,
+    "sent": false,
+    "status": "directions_draft_ready",
+    "draft": "The approved address is Cedar Hall, 10 Example Lane."
+  },
+  {
+    "request_id": "three",
+    "snapshot_id": "fictional-ten-confirmed",
+    "apparent_remaining": 2,
+    "branches": [
+      "capacity_conflict"
+    ],
+    "policy_references": [
+      "B01",
+      "B02",
+      "B03",
+      "B04"
+    ],
+    "missing_facts": [],
+    "blocking_conditions": [
+      "capacity_conflict",
+      "coordinator_register_check_required"
+    ],
+    "allocated_places": 0,
+    "confirmation_authorized": false,
+    "sent": false,
+    "status": "review_required",
+    "draft": "Your request for 3 places exceeds apparent availability and needs coordinator review. No partial allocation is proposed."
+  },
+  {
+    "request_id": "six",
+    "snapshot_id": "fictional-ten-confirmed",
+    "apparent_remaining": 2,
+    "branches": [
+      "capacity_conflict"
+    ],
+    "policy_references": [
+      "B01",
+      "B02",
+      "B03",
+      "B04"
+    ],
+    "missing_facts": [],
+    "blocking_conditions": [
+      "capacity_conflict",
+      "coordinator_register_check_required"
+    ],
+    "allocated_places": 0,
+    "confirmation_authorized": false,
+    "sent": false,
+    "status": "review_required",
+    "draft": "Your request for 6 places exceeds apparent availability and needs coordinator review. No partial allocation is proposed."
+  },
+  {
+    "request_id": "unknown-count",
+    "snapshot_id": "fictional-ten-confirmed",
+    "apparent_remaining": 2,
+    "branches": [
+      "clarify_count"
+    ],
+    "policy_references": [
+      "B03",
+      "B04"
+    ],
+    "missing_facts": [
+      "requested_count"
+    ],
+    "blocking_conditions": [
+      "count_unknown",
+      "coordinator_register_check_required"
+    ],
+    "allocated_places": 0,
+    "confirmation_authorized": false,
+    "sent": false,
+    "status": "review_required",
+    "draft": "Please state how many places you are requesting."
+  },
+  {
+    "request_id": "three-access",
+    "snapshot_id": "fictional-ten-confirmed",
+    "apparent_remaining": 2,
+    "branches": [
+      "capacity_conflict",
+      "access_review"
+    ],
+    "policy_references": [
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "B05"
+    ],
+    "missing_facts": [
+      "coordinator_access_confirmation"
+    ],
+    "blocking_conditions": [
+      "capacity_conflict",
+      "coordinator_register_check_required",
+      "access_unconfirmed"
+    ],
+    "allocated_places": 0,
+    "confirmation_authorized": false,
+    "sent": false,
+    "status": "review_required",
+    "draft": "Your request for 3 places exceeds apparent availability and needs coordinator review. No partial allocation is proposed. The requested access arrangement also needs individual coordinator confirmation."
+  }
+]

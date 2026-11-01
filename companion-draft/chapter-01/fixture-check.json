@@ -1,0 +1,17 @@
+{
+  "baseline": {
+    "feasible_schedules": 978,
+    "schedules_preserving_wednesday": 930,
+    "method": "minute-grid constraint enumeration; not a Claude trial"
+  },
+  "tuesday_unavailable": {
+    "feasible_schedules": 1,
+    "schedules_preserving_wednesday": 0,
+    "method": "minute-grid constraint enumeration; not a Claude trial"
+  },
+  "no_45_minute_window": {
+    "feasible_schedules": 0,
+    "schedules_preserving_wednesday": 0,
+    "method": "minute-grid constraint enumeration; not a Claude trial"
+  }
+}

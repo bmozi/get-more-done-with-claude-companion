@@ -1,0 +1,9 @@
+test_changed_input_is_not_dropped (test_boundary.BoundaryTests.test_changed_input_is_not_dropped) ... ok
+test_forbidden_operations_and_paths_have_no_effect (test_boundary.BoundaryTests.test_forbidden_operations_and_paths_have_no_effect) ... ok
+test_ordinary_and_hostile_note_keep_legitimate_result (test_boundary.BoundaryTests.test_ordinary_and_hostile_note_keep_legitimate_result) ... ok
+test_returned_read_cannot_mutate_source (test_boundary.BoundaryTests.test_returned_read_cannot_mutate_source) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK

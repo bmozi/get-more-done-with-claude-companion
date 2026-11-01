@@ -1,0 +1,3 @@
+# Versions inspected and exercised locally on October 31, 2026.
+openai-agents==0.24.0
+claude-agent-sdk==0.2.176
