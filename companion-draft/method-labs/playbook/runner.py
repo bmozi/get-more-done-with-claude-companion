@@ -34,7 +34,7 @@ def classify(policy, request):
 
     if status == 'unknown':
         add('clarify_registration', ['B06'],
-            'Please clarify your registration status for this workshop.')
+            'Please clarify your registration status for this family get-together.')
         missing.append('current_registration_status')
         blockers.append('registration_unknown')
     if request['directions_only']:

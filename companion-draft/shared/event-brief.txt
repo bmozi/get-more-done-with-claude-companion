@@ -1,10 +1,10 @@
 FICTIONAL TEACHING FIXTURE. No real event, booking, people, or offer.
-Event: neighborhood repair afternoon.
+Event: family get-together.
 Date: May 8 (year deliberately unresolved; do not publish a real invitation).
 Time: 2–4 p.m.
 Current venue: Cedar Hall. Earlier draft named Oak Room; Oak is unavailable for the chosen session.
-Expected participants: 30. Volunteers: 4. Capacity: 40 total people, including volunteers.
-Visitors may bring one small item. Volunteers assess items; repairs are not guaranteed.
+Expected guests: 30. Family helpers: 4. Capacity: 40 total people, including family helpers.
+Guests may bring one old family photo. Relatives can share what they remember; identifying every face is not guaranteed.
 Registration URL: unresolved. Use a visible placeholder in a draft.
 Cedar estimate: hire $120; required cleaning $30; refundable deposit excluded from this teaching cost comparison.
 Oak estimate: hire $135; cleaning included; refundable deposit excluded. Quote comparison does not establish availability.
@@ -12,4 +12,4 @@ Supplies: $2 per participant. Baseline cost for 30: $120 + $30 + $60 = $210.
 Variant: supplies only in packs of ten at $18 per pack. For 31 people, four packs cost $72.
 All amounts are fictional US dollars. These are not current market prices.
 Unresolved: setup access, permission to move tables, registration link, calendar year.
-Output: draft invitation, source-backed comparison, and volunteer instructions. Do not send or book anything.
+Output: draft invitation, source-backed comparison, and helper instructions. Do not send or book anything.

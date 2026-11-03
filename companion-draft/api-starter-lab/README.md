@@ -13,21 +13,21 @@ python3 companion-draft/api-starter-lab/fixture_server.py
 Leave it running. In the second:
 
 ```sh
-python3 companion-draft/api-starter-lab/app.py --endpoint http://127.0.0.1:8765/draft --case complete --note 'Replace the workshop filter on 2026-10-20.'
+python3 companion-draft/api-starter-lab/app.py --endpoint http://127.0.0.1:8765/draft --case complete --note 'Replace the home air filter on 2026-10-20.'
 ```
 
-Expected: `state` is `draft_for_review`, item is `workshop filter`, date is `2026-10-20`, and evidence kind says `local_fixed_fixture_not_model_output`. No record is saved. The note must exactly match its authored fixture; arbitrary notes deliberately fail rather than impersonating a language model.
+Expected: `state` is `draft_for_review`, item is `home air filter`, date is `2026-10-20`, and evidence kind says `local_fixed_fixture_not_model_output`. No record is saved. The note must exactly match its authored fixture; arbitrary notes deliberately fail rather than impersonating a language model.
 
 Try the missing-year case:
 
 ```sh
-python3 companion-draft/api-starter-lab/app.py --endpoint http://127.0.0.1:8765/draft --case missing-year --note 'Replace the workshop filter on October 20.'
+python3 companion-draft/api-starter-lab/app.py --endpoint http://127.0.0.1:8765/draft --case missing-year --note 'Replace the home air filter on October 20.'
 ```
 
 Expected: draft for review with `due_date: null` and a clarification question. Then try a response with an extra action field:
 
 ```sh
-python3 companion-draft/api-starter-lab/app.py --endpoint http://127.0.0.1:8765/draft --case extra-field --note 'Replace the workshop filter on 2026-10-20.'
+python3 companion-draft/api-starter-lab/app.py --endpoint http://127.0.0.1:8765/draft --case extra-field --note 'Replace the home air filter on 2026-10-20.'
 ```
 
 Expected: `rejected`, reason `expected only item, due_date, questions`, exit code 2. This is an intentionally failed case. A rejection is the expected protective behavior. There is no email tool to execute the unwanted field.

@@ -16,7 +16,7 @@ Read the starter files, identify the working directory, and run the example usin
 
 **Change one condition:** The expected input file is missing. The tool should identify the missing path and stop without claiming to have processed records. Check that behavior deliberately in a copy of the project.
 
-**Keep:** A setup record with runtime version, project version, command, and observed result. Installing an assistant is the beginning of the workshop; understanding one complete run is the first useful milestone.
+**Keep:** A setup record with runtime version, project version, command, and observed result. Your first useful milestone is understanding one complete run: which records went in, which tasks came out and why.
 
 ## Record the attempt
 

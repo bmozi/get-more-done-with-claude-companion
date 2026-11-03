@@ -12,7 +12,7 @@ Organize an ongoing project so a later session can resume without reconstructing
 
 ## Practice and assessment
 
-Create a one-page project packet for the repair afternoon. Include the current brief, one decision with its reason, two source references, and a next action. Start a fresh conversation using only that packet. Ask for a volunteer note.
+Create a one-page project packet for the family get-together. Include the current brief, one decision with its reason, two source references, and a next action. Start a fresh conversation using only that packet. Ask for a volunteer note.
 
 Does the note use Cedar Hall? Does it leave the registration link unresolved? If it falls back to old information, find whether the packet was ambiguous, incomplete, or not actually supplied.
 

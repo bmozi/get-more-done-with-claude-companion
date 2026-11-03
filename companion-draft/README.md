@@ -1,6 +1,6 @@
 # Reader companion start here
 
-This reader companion contains fictional practice data, worksheets and local examples for Get More Done with Claude. Download the complete ZIP and extract it before following chapter commands. It contains no book manuscript or private production records.
+This reader companion contains fictional practice data, worksheets and local examples for Get More Done with Claude. Download and extract the ZIP before following chapter commands. No book manuscript or private production records are included.
 
 Begin with `chapter-01/practice-week.txt`. The chapter practice guides describe the task, variation, and evidence to save. The maintenance tool is a local reference tested separately; none of these files establishes a live Claude trial.
 
@@ -32,7 +32,7 @@ Begin with `chapter-01/practice-week.txt`. The chapter practice guides describe 
 - [Chapter 24: Bring the method to work](chapter-24/practice-guide.md)
 - [Chapter 25: Document a small business process](chapter-25/practice-guide.md)
 - [Chapter 26: Schedule work and find out what happened](chapter-26/practice-guide.md)
-- [Chapter 27: Open the workshop](chapter-27/practice-guide.md)
+- [Chapter 27: Run your first small program](chapter-27/practice-guide.md)
 - [Chapter 28: Build a small tool from a clear brief](chapter-28/practice-guide.md)
 - [Chapter 29: Inspect changes and test the result](chapter-29/practice-guide.md)
 - [Chapter 30: Recover and keep a project maintainable](chapter-30/practice-guide.md)
@@ -84,3 +84,8 @@ Start with [first-useful-app/README.md](first-useful-app/README.md) for a deskto
 ## AI as a thought partner
 
 Use [thought-partner/README.md](thought-partner/README.md) for exploration, reasoned disagreement, changed-evidence checks and six independent practice cases. Attempt the cases before opening the separate reviewer key.
+
+
+## If a step is unfamiliar
+
+Ask your AI thought partner: “I am stuck on ___. I am trying to ___. Explain it using an example from my own job, household or interests. Show one step, wait while I try, then check my understanding.” You can ask for a different example. For command-line exercises, have it explain where the command runs, what it changes and what result to expect before you run it. Use a practice copy.

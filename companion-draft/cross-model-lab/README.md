@@ -1,6 +1,8 @@
 # Compare answers before combining them
 
-Two assistants recommend different rooms for your workshop. Which one should you trust? Start with the quotes and registration records. The name above an answer cannot settle the arithmetic.
+This historical pilot packet uses the earlier fictional repair-event setting. It is retained so the captured results still point to the exact material used. The current book’s family-gathering example teaches the same comparison method.
+
+Two assistants recommend different rooms. Which answer has the stronger evidence? Start with the quotes and registration records. The name above an answer cannot settle the arithmetic.
 
 This small lab tests evidence handling, stale information, counting, budget comparison, and a bounded runbook. It is one starting kit for the book's evidence-based recommendation experiment. It does not test video, images, coding, or broad model intelligence. All input data is fictional and assistant-authored under John's direction. No measured model results are supplied by this kit.
 

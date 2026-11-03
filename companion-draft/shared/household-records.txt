@@ -1,5 +1,5 @@
 FICTIONAL HOUSEHOLD RECORDS
-Workshop appliance: label photo transcribed as Model A. Older handwritten note says Model B. Resolve against original label before selecting a manual.
+Home appliance: label photo transcribed as Model A. Older handwritten note says Model B. Resolve against original label before selecting a manual.
 Last service date: unknown. A person recalls spring; no date confirmed.
 Manuals: see manuals/model-a-v1.txt, model-a-v2.txt and model-b-v1.txt. All are fictional and are not appliance instructions.
 Next action: verify model and service history. Do not invent an interval from incomplete evidence.

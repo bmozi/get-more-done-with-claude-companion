@@ -1,5 +1,5 @@
 [
-  {"id":"directions","message":"I am confirmed for this workshop; please give me directions.","registration_status":"confirmed","directions_only":true,"requested_count":null,"access_requested":false,"access_confirmed":false},
+  {"id":"directions","message":"I am confirmed for this family get-together; please give me directions.","registration_status":"confirmed","directions_only":true,"requested_count":null,"access_requested":false,"access_confirmed":false},
   {"id":"three","message":"We would like three places.","registration_status":"new","directions_only":false,"requested_count":3,"access_requested":false,"access_confirmed":false},
   {"id":"six","message":"We would like six places.","registration_status":"new","directions_only":false,"requested_count":6,"access_requested":false,"access_confirmed":false},
   {"id":"unknown-count","message":"Can our group attend?","registration_status":"new","directions_only":false,"requested_count":null,"access_requested":false,"access_confirmed":false},

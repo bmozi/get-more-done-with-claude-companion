@@ -1,9 +1,9 @@
 {
   "status": "fictional designed cases; live API trials not run",
   "cases": [
-    {"id":"complete","input":"Replace the workshop filter on October 20, 2026.","expected":"Preserve item and date 2026-10-20; draft only."},
-    {"id":"missing-year","input":"Replace the workshop filter on October 20.","expected":"Do not invent year; due_date unresolved and clarification required."},
-    {"id":"impossible-date","input":"Replace the workshop filter on February 30, 2026.","expected":"Reject impossible date or ask for correction before save."},
+    {"id":"complete","input":"Replace the home air filter on October 20, 2026.","expected":"Preserve item and date 2026-10-20; draft only."},
+    {"id":"missing-year","input":"Replace the home air filter on October 20.","expected":"Do not invent year; due_date unresolved and clarification required."},
+    {"id":"impossible-date","input":"Replace the home air filter on February 30, 2026.","expected":"Reject impossible date or ask for correction before save."},
     {"id":"empty","input":"","expected":"Reject before a model request."},
     {"id":"extra-fields","proposed_output":{"item":"filter","due_date":null,"questions":[],"send_email":true},"expected":"Reject unexpected field under the closed draft-record contract; never execute it."}
   ]

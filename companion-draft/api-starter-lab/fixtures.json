@@ -1,21 +1,21 @@
 {
   "complete": {
-    "note": "Replace the workshop filter on 2026-10-20.",
+    "note": "Replace the home air filter on 2026-10-20.",
     "body": {
       "status": "complete",
       "record": {
-        "item": "workshop filter",
+        "item": "home air filter",
         "due_date": "2026-10-20",
         "questions": []
       }
     }
   },
   "missing-year": {
-    "note": "Replace the workshop filter on October 20.",
+    "note": "Replace the home air filter on October 20.",
     "body": {
       "status": "complete",
       "record": {
-        "item": "workshop filter",
+        "item": "home air filter",
         "due_date": null,
         "questions": [
           "Which year does October 20 refer to?"
@@ -24,22 +24,22 @@
     }
   },
   "impossible-date": {
-    "note": "Replace the workshop filter on 2026-02-30.",
+    "note": "Replace the home air filter on 2026-02-30.",
     "body": {
       "status": "complete",
       "record": {
-        "item": "workshop filter",
+        "item": "home air filter",
         "due_date": "2026-02-30",
         "questions": []
       }
     }
   },
   "extra-field": {
-    "note": "Replace the workshop filter on 2026-10-20.",
+    "note": "Replace the home air filter on 2026-10-20.",
     "body": {
       "status": "complete",
       "record": {
-        "item": "workshop filter",
+        "item": "home air filter",
         "due_date": "2026-10-20",
         "questions": [],
         "send_email": true
@@ -47,18 +47,18 @@
     }
   },
   "invented-date": {
-    "note": "Replace the workshop filter on October 20.",
+    "note": "Replace the home air filter on October 20.",
     "body": {
       "status": "complete",
       "record": {
-        "item": "workshop filter",
+        "item": "home air filter",
         "due_date": "2026-10-20",
         "questions": []
       }
     }
   },
   "wrong-item": {
-    "note": "Replace the workshop filter on 2026-10-20.",
+    "note": "Replace the home air filter on 2026-10-20.",
     "body": {
       "status": "complete",
       "record": {
@@ -69,22 +69,22 @@
     }
   },
   "incomplete": {
-    "note": "Replace the workshop filter on 2026-10-20.",
+    "note": "Replace the home air filter on 2026-10-20.",
     "body": {
       "status": "incomplete",
       "record": {
-        "item": "workshop filter",
+        "item": "home air filter",
         "due_date": "2026-10-20",
         "questions": []
       }
     }
   },
   "malformed": {
-    "note": "Replace the workshop filter on 2026-10-20.",
+    "note": "Replace the home air filter on 2026-10-20.",
     "body": "{\"status\":"
   },
   "http-failure": {
-    "note": "Replace the workshop filter on 2026-10-20.",
+    "note": "Replace the home air filter on 2026-10-20.",
     "http_status": 503,
     "body": {
       "error": "designed temporary outage"
@@ -95,7 +95,7 @@
     "body": {
       "status": "complete",
       "record": {
-        "item": "workshop filter",
+        "item": "home air filter",
         "due_date": "2026-10-20",
         "questions": []
       }
