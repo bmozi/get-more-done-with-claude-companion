@@ -14,7 +14,7 @@ Carry one verified brief into several formats and review each format for the way
 
 ## Practice and assessment
 
-Create a one-page instruction sheet and a three-slide volunteer explanation from the same fictional brief. Plan a four-frame storyboard for the registration process; producing a video is optional if access is unavailable.
+Create a one-page instruction sheet and a three-slide helper explanation from the same fictional brief. Plan a four-frame storyboard for the registration process; producing a video is optional if access is unavailable.
 
 **Change one condition:** The audience includes someone who will receive only a printed copy. Ensure the essential instruction survives without animation, color, or a clickable link.
 

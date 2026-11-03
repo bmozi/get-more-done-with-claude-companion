@@ -17,7 +17,7 @@ Build a useful request with Claude, then check that the brief includes your outc
 
 Start with a rough description of one task you actually want to finish. Ask Claude to help build the prompt through one question at a time. Review the proposed prompt before allowing it to carry out the task. Then use the checked prompt and compare the result with your answers. Write or save the resulting brief. Underline the outcome, circle the facts that change the answer, and identify how you will judge completion. Ask Claude to identify one ambiguity before drafting.
 
-**Change one condition:** The event is postponed. List every output that needs the new date, including the invitation, registration page, and volunteer note. Clear directions also help us trace what changes later.
+**Change one condition:** The event is postponed. List every output that needs the new date, including the invitation, registration page, and helper note. Clear directions also help us trace what changes later.
 
 **Keep:** Your rough opening, clarifying answers, proposed and checked prompts, the task output, and a short explanation of what you corrected. For the multi-step project, also keep the plan, step prompts, checked outputs and revised ten-minute packet. The [prompt-building practice](../prompt-builder/README.md) supplies a separate learning example and a changed-condition check.
 

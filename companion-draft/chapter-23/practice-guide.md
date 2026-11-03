@@ -14,7 +14,7 @@ Plan a project around dependencies and uncertain information, then revise the wh
 
 Create a plan for the fictional event with five milestones and their dependencies. Mark which details are confirmed, proposed, or unresolved. Then remove the original venue and produce a change-impact list before editing the outputs.
 
-**Change one condition:** Two volunteers withdraw. Which promise to attendees must be reconsidered? Explain whether the solution is a smaller scope, more help, a different schedule, or cancellation. Do not keep every original promise by silently assuming extra capacity.
+**Change one condition:** Two family helpers withdraw. Which promise to attendees must be reconsidered? Explain whether the solution is a smaller scope, more help, a different schedule, or cancellation. Do not keep every original promise by silently assuming extra capacity.
 
 **Keep:** The revised plan and a change record showing how the new constraints affected the work.
 
